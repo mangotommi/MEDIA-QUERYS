@@ -1,0 +1,36 @@
+  body{
+            background-color: orange;
+            box-sizing: border-box;
+        }
+
+        .caja {
+            height: 300px;
+            border: 2px black solid;
+            border-radius: 15px;
+            box-shadow: 10px 5px black;
+
+        }
+          
+        @media (min-width:0px) and (max-width:991px) {
+            .caja {
+                
+                background-image: linear-gradient(to left, rgb(206, 33, 27), rgb(19, 17, 153));
+
+            }
+        }
+
+        @media (min-width:992px){
+            .caja {
+                height: 100px;
+                background-color: blueviolet;
+
+            }
+        }
+
+        @media (min-width: 1300px){
+            .caja{
+                height: 150px;
+                background-color: red;
+            }
+        }
+
